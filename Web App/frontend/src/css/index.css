@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#app{
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color:  #4a4141;
+    font-size: 40px;
+    margin: 10px;
+}
+
+p{
+    color: #615454;
+    font-size: 18px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 10px;
+    display: block;
+}
+
+.items-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.add-items{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items{
+    width: 40%;
+    text-align: center;
+}
+
+.add-btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    background-color:  #d1a1a1;
+    color: white;
+    transition: all .3s ease-in-out;
+    margin-top: 10px;
+}
+
+.add-btn:hover{
+    background-color: #ab8484;
+}
+
+.all-items > li{
+    list-style: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: solid silver 2px;
+}
+
+.del-item{
+    padding: 3px 7px;
+    margin-left: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    background-color: #e06c6c;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+.del-item:hover{
+    background-color: #ed3b3b;
+}
+
+.calc-btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    background-color:  #2ea63a;
+    color: white;
+    transition: all .3s ease-in-out;
+    margin-top: 10px; 
+}
+
+.calc-btn:hover{
+    background-color: #1e7026;
+}
+
+.best-items > li{
+    border: solid #1e9101 2px;  
+}
+
+
