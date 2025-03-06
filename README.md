@@ -1,2 +1,3 @@
 This project explores the use of genetic algorithms to solve various optimization problems. Genetic algorithms mimic evolutionary processes such as selection, crossover, and mutation to find optimal or near-optimal solutions in complex search spaces. The repository contains code for experiments and a web application that demonstrates how the algorithms work in practice on the knapsack problem. More information is available in the pdf file
 
+This project was implemented in the winter semester of 2024 in the subject of HOP (Heuristic Optimization Processes). The project was carried out by Dmytro Skrypchenko, Daria Rezvin, Ostap Spas
